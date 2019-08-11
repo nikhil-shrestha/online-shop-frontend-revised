@@ -1,7 +1,7 @@
 import React from 'react';
 
-import skype from '../../assets/images/skype.svg';
-import phone from '../../assets/images/phone.svg';
+import skype from '../../../assets/images/skype.svg';
+import phone from '../../../assets/images/phone.svg';
 
 import './header-items.styles.scss';
 
