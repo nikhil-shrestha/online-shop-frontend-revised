@@ -49,40 +49,6 @@ ul.navbar-nav li a:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.afternav {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-bottom: 60px;
-}
-
-.imagebg {
-  background-image: url('../../../assets/images/slider-bkg.jpg');
-  background-position: center top;
-  background-size: cover;
-  background-color: transparent;
-}
-
-ul.leftnav li a {
-  font-weight: 500;
-  color: #595959;
-  font-size: 14px;
-  line-height: 35px;
-  text-decoration: none;
-}
-
-ul.leftnav li a:hover,
-ul.leftnav li.active a {
-  color: #ff8e0a;
-}
-
-ul.leftnav li {
-  line-height: 2.2 !important;
-}
-
-.whitebg {
-  background-color: #fff;
-}
-
 .logo {
   max-width: 140px;
 }
