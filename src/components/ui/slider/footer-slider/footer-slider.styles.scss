@@ -1,0 +1,23 @@
+.smallcarousel .carousel-caption {
+  top: 0;
+  padding-top: 0;
+  color: #000;
+  z-index: 12;
+  left: 0;
+  text-align: left;
+}
+
+.smallcarousel .carousel-item,
+.smallcarousel .carousel-inner,
+.smallcarousel .carousel {
+  position: static;
+}
+
+.smallcarousel img {
+  padding-top: 50px;
+}
+
+.smallcarousel {
+  height: 340px;
+  overflow-y: hidden;
+}
