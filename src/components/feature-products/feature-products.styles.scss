@@ -1,0 +1,31 @@
+.listbundle {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100vw-3rem);
+  flex-wrap: wrap;
+
+  .animation1 {
+    animation-duration: 0.5s;
+  }
+  .animation2 {
+    animation-duration: 1s;
+  }
+  .animation3 {
+    animation-duration: 1.5s;
+  }
+  .animation4 {
+    animation-duration: 2s;
+  }
+  .animation5 {
+    animation-duration: 2.5s;
+  }
+  .animation6 {
+    animation-duration: 3s;
+  }
+  .animation7 {
+    animation-duration: 3.5s;
+  }
+  .animation8 {
+    animation-duration: 4s;
+  }
+}

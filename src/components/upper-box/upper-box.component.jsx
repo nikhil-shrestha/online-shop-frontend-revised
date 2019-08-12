@@ -103,57 +103,59 @@ const CATEGORIES = [
 
 export default function upperBox() {
   return (
-    <main role="main" class="container-fluid afternav imagebg">
-      <div class="container">
-        <div class="row upperbox">
-          <div class="col-md-2">
-            <ul class="menu list-unstyled leftnav">
+    <main role="main" className="container-fluid afternav imagebg">
+      <div className="container">
+        <div className="row upperbox">
+          <div className="col-md-2">
+            <ul className="menu list-unstyled leftnav">
               {CATEGORIES.map(category => (
-                <SidePanel category={category} />
+                <SidePanel key={category.name} category={category} />
               ))}
             </ul>
           </div>
-          <div class="col-md-7">
-            <div class="d-flex justify-content-center">
+          <div className="col-md-7">
+            <div className="d-flex justify-content-center">
               <img
                 src={promImg}
                 alt="Image"
-                class="imagemainimg-fluid center"
+                className="imagemainimg-fluid center"
               />
             </div>
           </div>
-          <div class="col-md-3">
+          <div className="col-md-3">
             <a href="">
-              <img src={promoImg} alt="Promo Code" class="img-fluid" />
+              <img src={promoImg} alt="Promo Code" className="img-fluid" />
             </a>
-            <table class="featureslist table">
-              <tr>
-                <td>
-                  <img src={returnImg} alt="Image" />
-                </td>
-                <td>
-                  100% satisfaction if
-                  <br class="hidden-xs" /> you are unable
-                </td>
-              </tr>
-              <tr>
-                <td class="bordertop">
-                  <img src={shippingImg} alt="Image" />
-                </td>
-                <td class="bordertop">
-                  Free delivery within <br class="hidden-xs" />
-                  10 km
-                </td>
-              </tr>
-              <tr>
-                <td class="bordertop">
-                  <img src={supportImg} alt="Image" />
-                </td>
-                <td class="bordertop">
-                  Gift and Vouchers <br class="hidden-xs" />
-                  in events
-                </td>
-              </tr>
+            <table className="featureslist table">
+              <tbody>
+                <tr>
+                  <td>
+                    <img src={returnImg} alt="Image" />
+                  </td>
+                  <td>
+                    100% satisfaction if
+                    <br className="hidden-xs" /> you are unable
+                  </td>
+                </tr>
+                <tr>
+                  <td className="bordertop">
+                    <img src={shippingImg} alt="Image" />
+                  </td>
+                  <td className="bordertop">
+                    Free delivery within <br className="hidden-xs" />
+                    10 km
+                  </td>
+                </tr>
+                <tr>
+                  <td className="bordertop">
+                    <img src={supportImg} alt="Image" />
+                  </td>
+                  <td className="bordertop">
+                    Gift and Vouchers <br className="hidden-xs" />
+                    in events
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

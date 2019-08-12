@@ -119,14 +119,14 @@ const CATEGORIES = [
 
 export default function headerContent() {
   return (
-    <nav class="navbar navbar-expand-md sticky-top">
-      <div class="container">
-        <div class="d-flex align-items-center w-100">
-          <a class="navbar-brand" href="#">
-            <img src={logo} class="logo" />
+    <nav className="navbar navbar-expand-md sticky-top">
+      <div className="container">
+        <div className="d-flex align-items-center w-100">
+          <a className="navbar-brand" href="#">
+            <img src={logo} className="logo" />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarsExampleDefault"
@@ -134,14 +134,14 @@ export default function headerContent() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <div class="navbar-toggler-icon" />
+            <div className="navbar-toggler-icon" />
             <br />
-            <div class="navbar-toggler-icon" />
+            <div className="navbar-toggler-icon" />
             <br />
-            <div class="navbar-toggler-icon" />
+            <div className="navbar-toggler-icon" />
           </button>
-          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="nav navbar-nav ml-auto w-25 justify-content-start mainav actionbuttons">
+          <div className="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul className="nav navbar-nav ml-auto w-25 justify-content-start mainav actionbuttons">
               <NavDropdown name="SHOP" subName="NOW">
                 <ul className="list-inline">
                   {CATEGORIES.map(category => {
@@ -155,12 +155,12 @@ export default function headerContent() {
                 </ul>
               </NavDropdown>
             </ul>
-            <ul class="nav navbar-nav ml-auto w-75 justify-content-center searchnav">
-              <li class="nav-item" style={{ width: '100%' }}>
-                <input type="text" class="navsearch" />
+            <ul className="nav navbar-nav ml-auto w-75 justify-content-center searchnav">
+              <li className="nav-item" style={{ width: '100%' }}>
+                <input type="text" className="navsearch" />
               </li>
             </ul>
-            <ul class="nav navbar-nav ml-auto w-75 justify-content-end actionbuttons righside">
+            <ul className="nav navbar-nav ml-auto w-75 justify-content-end actionbuttons righside">
               <NavDropdown name="SIGN IN &" subName="FREE JOIN" credentials>
                 <ul className="list-unstyled">
                   <li>

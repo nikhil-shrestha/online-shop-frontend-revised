@@ -4,10 +4,10 @@ const sidePanel = ({ category: { name, image, subcategories } }) => {
   return (
     <li>
       <a href="#">{name}</a>
-      <ul class="submenu">
+      <ul className="submenu">
         {subcategories.map(subs => {
           return (
-            <li>
+            <li key={subs.name}>
               <a href="#">{subs.name}</a>
             </li>
           );

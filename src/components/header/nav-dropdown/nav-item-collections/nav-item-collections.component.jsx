@@ -12,7 +12,7 @@ const navItemCollections = ({ category: { name, image, subcategories } }) => {
       </a>
       <ul className="list-unstyled">
         {subcategories.map(subs => {
-          return <NavItem name={subs.name} />;
+          return <NavItem key={subs.name} name={subs.name} />;
         })}
       </ul>
     </li>
