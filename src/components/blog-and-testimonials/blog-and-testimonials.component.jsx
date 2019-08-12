@@ -7,12 +7,12 @@ import './blog-and-testimonials.styles.scss';
 
 export default function blogAndTestimonials() {
   return (
-    <section class="container">
-      <div class="row">
-        <div class="col-md-6">
+    <section className="container">
+      <div className="row">
+        <div className="col-md-6">
           <Blog />
         </div>
-        <div class="col-md-6">
+        <div className="col-md-6">
           <Testimonials />
         </div>
       </div>
