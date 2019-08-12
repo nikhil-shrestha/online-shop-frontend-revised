@@ -1,0 +1,24 @@
+.card {
+  background-color: #efefef !important;
+  border-color: #efefef !important;
+  height: 350px;
+  position: relative !important;
+  align-items: center;
+  min-height: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+
+  .card-title {
+    margin-bottom: 0;
+  }
+
+  .text-muted {
+    color: #ff8e0a !important;
+    font-size: 12px;
+  }
+
+  img {
+    max-width: 205px;
+    max-height: 205px;
+  }
+}

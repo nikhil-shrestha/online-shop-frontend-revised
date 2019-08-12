@@ -1,0 +1,28 @@
+.slick-prev {
+  left: -4px !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 13px !important;
+}
+
+.slick-prev:before {
+  content: '\2190';
+}
+
+.slick-next:before {
+  content: '\2192';
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: inline-block;
+  width: 30px !important;
+  height: 30px !important;
+  background: no-repeat 50%/100% 100%;
+  color: #ff8e0a !important;
+  padding: 10px;
+  border-radius: 30px;
+  top: 45%;
+}
