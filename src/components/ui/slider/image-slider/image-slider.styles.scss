@@ -1,0 +1,25 @@
+.carousel.slide {
+  ol.carousel-indicators {
+    bottom: 0;
+    margin-bottom: -30px;
+
+    img {
+      display: block;
+    }
+  }
+
+  .carousel-inner {
+    .carousel-item.active {
+      display: block !important;
+    }
+
+    .carousel-item {
+      display: none !important;
+    }
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 15%;
+  }
+}

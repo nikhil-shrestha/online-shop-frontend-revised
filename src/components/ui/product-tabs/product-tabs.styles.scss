@@ -1,0 +1,28 @@
+.textinfo {
+  margin-top: 100px;
+
+  .nav-tabs {
+    border-bottom: 2px solid #c4c4c4 !important;
+    height: 43px !important;
+
+    li.nav-item:hover {
+      cursor: pointer;
+    }
+
+    .nav-item.show .nav-link,
+    .nav-link.active {
+      background-color: #f5f5f5 !important;
+      border: 0 !important;
+      border-bottom: 2px solid #ff8e0a !important;
+    }
+  }
+
+  .tab-content {
+    margin-top: 30px;
+    font-size: 15px;
+
+    strong {
+      font-weight: 500;
+    }
+  }
+}
