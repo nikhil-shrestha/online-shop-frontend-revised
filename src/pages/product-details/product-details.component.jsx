@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import ImageSlider from '../../components/ui/slider/image-slider/image-slider.component';
 import ProductTabs from '../../components/ui/product-tabs/product-tabs.component';
+import Breadcrum from '../../components/ui/breadcrum/breadcrum.component';
 
 import fav from '../../assets/images/fav.png';
 import unfav from '../../assets/images/unfav.png';
@@ -20,29 +21,7 @@ export default class ProductDetails extends Component {
     return (
       <div>
         <main role="main" className="container afternav">
-          <div className="breadcrum">
-            <span>
-              <a href="#">Home</a>
-            </span>
-            <span>
-              <a href="#">Home & Living</a>
-            </span>
-            <span>
-              <a href="#">Home Decor</a>
-            </span>
-            <span>
-              <a href="#">Bedding</a>
-            </span>
-            <span>
-              <a href="#">Bed Linen</a>
-            </span>
-            <span>
-              <a href="#">Bedsheets</a>
-            </span>
-            <span>
-              <a href="#">Single Bed</a>
-            </span>
-          </div>
+          <Breadcrum />
           <div className="row">
             <div className="col-md-7">
               <ImageSlider />
