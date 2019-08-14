@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Collapse } from 'reactstrap';
 
-import './brand-filter.styles.scss';
+import './types-filter.styles.scss';
 
-class BrandFilter extends Component {
+class TypesFilter extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
@@ -23,7 +23,7 @@ class BrandFilter extends Component {
             <label
               className={`title searchTitle ${collapse ? 'collapsed' : ''}`}
             >
-              Brand
+              Types
             </label>
           </h4>
         </div>
@@ -70,4 +70,4 @@ class BrandFilter extends Component {
   }
 }
 
-export default BrandFilter;
+export default TypesFilter;
